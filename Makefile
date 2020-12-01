@@ -62,10 +62,10 @@ CONFIG?=	${TOOLSDIR}/config/${SETTINGS}/build.conf
 
 # Bootstrap the build options if not set:
 
-NAME?=		OPNsense
+NAME?=		Egli
 TYPE?=		${NAME:tl}
 SUFFIX?=	#-devel
-FLAVOUR?=	OpenSSL LibreSSL # first one is default
+FLAVOUR?=	OpenSSL # first one is default
 _ARCH!=		uname -p
 ARCH?=		${_ARCH}
 KERNEL?=	SMP
@@ -73,7 +73,7 @@ ADDITIONS?=	os-dyndns${SUFFIX}
 DEVICE?=	A10
 SPEED?=		115200
 UEFI?=		yes
-GITBASE?=	https://github.com/opnsense
+GITBASE?=	https://github.com/glasgow57
 MIRRORS?=	https://opnsense.c0urier.net \
 		http://mirrors.nycbug.org/pub/opnsense \
 		http://mirror.wdc1.us.leaseweb.net/opnsense \
