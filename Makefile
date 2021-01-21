@@ -1,4 +1,4 @@
-# Copyright (c) 2015-2020 Franco Fichtner <franco@opnsense.org>
+# Copyright (c) 2020-2021 Franco Fichtner <junior@flextech.africa>
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions
@@ -74,12 +74,8 @@ DEVICE?=	A10
 SPEED?=		115200
 UEFI?=		yes
 GITBASE?=	https://github.com/glasgow57
-MIRRORS?=	https://opnsense.c0urier.net \
-		http://mirrors.nycbug.org/pub/opnsense \
-		http://mirror.wdc1.us.leaseweb.net/opnsense \
-		http://mirror.sfo12.us.leaseweb.net/opnsense \
-		http://mirror.fra10.de.leaseweb.net/opnsense \
-		http://mirror.ams1.nl.leaseweb.net/opnsense
+MIRRORS?=	https://egli-pkg.flextech.africa \
+
 SERVER?=	user@does.not.exist
 UPLOADDIR?=	.
 _VERSION!=	date '+%Y%m%d%H%M'
