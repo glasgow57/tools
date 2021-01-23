@@ -74,7 +74,7 @@ DEVICE?=	A10
 SPEED?=		115200
 UEFI?=		yes
 GITBASE?=	https://github.com/glasgow57
-MIRRORS?=	https://egli-pkg.flextech.africa \
+MIRRORS?=	http://eglifw.ddns.net \
 
 SERVER?=	user@does.not.exist
 UPLOADDIR?=	.
