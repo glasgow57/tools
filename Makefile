@@ -74,7 +74,7 @@ DEVICE?=	A10
 SPEED?=		115200
 UEFI?=		yes
 GITBASE?=	https://github.com/glasgow57
-MIRRORS?=	http://eglifw.ddns.net \
+MIRRORS?=	http://192.168.1.197 \
 
 SERVER?=	user@does.not.exist
 UPLOADDIR?=	.
