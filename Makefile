@@ -54,7 +54,7 @@ lint: lint-steps lint-composite
 
 TOOLSDIR?=	/usr/tools
 TOOLSBRANCH?=	master
-SETTINGS?=	21.1.r1
+SETTINGS?=	21.1
 
 CONFIG?=	${TOOLSDIR}/config/${SETTINGS}/build.conf
 
