@@ -54,7 +54,7 @@ lint: lint-steps lint-composite
 
 TOOLSDIR?=	/usr/tools
 TOOLSBRANCH?=	master
-SETTINGS?=	21.1
+SETTINGS?=	20.7
 
 CONFIG?=	${TOOLSDIR}/config/${SETTINGS}/build.conf
 
@@ -62,7 +62,7 @@ CONFIG?=	${TOOLSDIR}/config/${SETTINGS}/build.conf
 
 # Bootstrap the build options if not set:
 
-NAME?=		opnsense
+NAME?=		OPNsense
 TYPE?=		${NAME:tl}
 SUFFIX?=	#-devel
 FLAVOUR?=	OpenSSL # first one is default
