@@ -62,7 +62,7 @@ CONFIG?=	${TOOLSDIR}/config/${SETTINGS}/build.conf
 
 # Bootstrap the build options if not set:
 
-NAME?=		Egli
+NAME?=		EGLI-FW
 TYPE?=		${NAME:tl}
 SUFFIX?=	#-devel
 FLAVOUR?=	OpenSSL # first one is default
